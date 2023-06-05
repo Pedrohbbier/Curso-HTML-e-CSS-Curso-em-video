@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe</title>
+    <style>
+        iframe{
+            width: 95vw;
+            height: 450px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor, sitest tempore qui! Perspiciatis, nemo.</p>
+    <ul>
+        <li><a href="sitedeteste.html" target="frame" >Primeira página</a></li>
+        <li><a href="sitedeteste2.html" target="frame" >Segunda página</a></li>
+        <li><a href="sitedeteste3.html" target="frame" >Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quam illo perferendis ut enim quod quis ratione ipsam omnis dolore. Ut aliquam necessitatibus praesentium delectus a ab ullam. Possimus,  Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laudantium voluptate quidem est, rem, deserunt commodi tenetur, nulla soluta cum possimus! Dolorum repellat quos adipisci illum deserunt, soluta sapiente qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni minima animi sapiente cumque, illum, voluptatibus culpa error impedit corporis nobis deserunt facilis! Commodi tempore assumenda sequi sed illo similique consequatur!</p>
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1>" frameborder="0" name="frame" >
+        <p>Infelizmente, seu navegador não é compátivel com o iframe.</p><!--Essa mensagem aparece quando o navegador não é compátivel-->
+    </iframe>
+</body>
+</html>
